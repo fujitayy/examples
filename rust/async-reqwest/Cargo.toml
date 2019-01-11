@@ -1,0 +1,11 @@
+[package]
+name = "async-reqwest"
+version = "0.1.0"
+authors = ["Yuichi Fujita <fujita.y@edocode.co.jp>"]
+edition = "2018"
+
+[dependencies]
+actix = "0.7.9"
+failure = "0.1.5"
+futures = "0.1.25"
+reqwest = "0.9.7"
